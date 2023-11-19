@@ -113,7 +113,6 @@ export default function AdminMainPage() {
             <div data-aos="fade-down" className="flex justify-between mb-3 main_panel">
                 <h1 className='page_text poppins text-3xl mb-4 font-bold'>Barcha MFY inspektorlari </h1>
                 <div className="flex items-center gap-2 ">
-                    <Link href={"/Dashboard"} className='green asosiy_button py-3 px-10 button text-white rounded-md'>Dashboard</Link>
                     <Link href={"/"} className="green asosiy_button py-3 px-10 button text-white rounded-md">
                         Orqaga
                     </Link>

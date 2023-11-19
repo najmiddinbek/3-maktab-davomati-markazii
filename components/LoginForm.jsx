@@ -55,6 +55,20 @@ export default function LoginForm() {
       });
       return;
     }
+    if (email === "dashboard" && password === "superadmin") {
+      router.replace("/Dashboard");
+      toast.success(`Xush kelibsiz`, {
+        position: "top-right",
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+      return;
+    }
     if (email === "Najmiddinova Nasiba" && password === "nasiba11") {
       router.replace("/pupilsAdd");
       toast.success(`Xush kelibsiz ${email}`, {
